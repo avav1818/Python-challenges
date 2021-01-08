@@ -2,8 +2,8 @@
 
 # https://pythonprinciples.com/challenges/Type-check/ 
 
-def only_ints(v1, v2):
-    if (type (v1) == int ) and (type (v2) == int):
+def only_ints(param1, param2):
+    if (type (param1) == int ) and (type (param2) == int):
         return True
     else:
         return False 
